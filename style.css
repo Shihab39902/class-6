@@ -1,0 +1,71 @@
+body, h1, h2, p{
+    padding:0;
+    margin:0;
+}
+nav ul li {
+    list-style: none;
+    text-decoration:none;
+}
+
+nav li {
+    display:inline;
+    margin-right: 20px;
+}
+nav {
+    background-color: #045d41a8;
+    color: #fff;
+    font-size: 17px;
+    height: auto;
+    width:auto;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+nav a {
+    text-decoration:underline;
+    color: #e6dddd;
+    font-weight: bold;
+}
+#home h1 {
+    line-height: 50px;
+    padding: 15px;
+    font-size:35px;  
+}
+#home p {
+    padding:10px;
+    font-size:25px;  
+}
+
+#home .intro {
+    text-align:center;
+    background-image: url(./image/tarvel.jpg);
+    background-size:cover;
+    padding:250px 150px;
+}
+.category {
+    position: relative;
+    display: inline-block;
+}
+.category-content {
+    display:none;
+    position: absolute;
+    visibility: hidden;
+    background-color: #0e0202;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.category-content li {
+    padding: 10px;
+}
+
+.category:hover .category-content {
+    display: block;
+    visibility: visible;
+}
+.tour_1{
+    text-align:center;
+    padding: 20px;
+    margin: 20px;
+}
